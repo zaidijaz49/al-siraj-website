@@ -6,7 +6,7 @@ import {
 import { Section, SectionLabel, SectionTitle } from "../components/Section";
 import { useState } from "react";
 // Add this import at the top of Home.jsx
-import { FileText, Download, ExternalLink, Calendar } from "lucide-react";
+import { FileText, Download, Calendar } from "lucide-react";
 const Report2025 = "/reports/2023.pdf";
 const Report2024 = "/reports/2024.pdf";
 const Report2023 = "/reports/2025.pdf";
@@ -432,18 +432,7 @@ function AnnualReports() {
 
               {/* Action buttons — ✅ fixed missing opening <a> tags */}
               <div className="flex gap-2 pt-2 border-t border-white/10">
-                <a                              
-                  href={report.file}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`flex items-center gap-1.5 text-sm font-semibold px-4 py-2 rounded-xl transition-colors no-underline ${
-                    report.highlight
-                      ? "bg-white text-brand hover:bg-brand-light"
-                      : "bg-brand text-white hover:bg-brand-mid"
-                  }`}
-                >
-                  <ExternalLink size={13} /> View
-                </a>
+               
                 <a                            
                   href={report.file}
                   download
