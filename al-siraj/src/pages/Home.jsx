@@ -7,9 +7,9 @@ import { Section, SectionLabel, SectionTitle } from "../components/Section";
 import { useState } from "react";
 // Add this import at the top of Home.jsx
 import { FileText, Download, ExternalLink, Calendar } from "lucide-react";
-import Report2025 from "../assets/reports/Al Siraj 30-Jun-2023.pdf";
-import Report2024 from "../assets/reports/Al Siraj 30-Jun-2024.pdf";
-import Report2023 from "../assets/reports/Al Siraj 30-Jun-2025.pdf";
+import Report2025 from "../assets/reports/2023.pdf";
+import Report2024 from "../assets/reports/2024.pdf";
+import Report2023 from "../assets/reports/2025.pdf";
 import Img12 from "../assets/img12.jpeg"
 import Img15 from "../assets/img15.jpeg"
 import Img3 from "../assets/img3.jpeg"

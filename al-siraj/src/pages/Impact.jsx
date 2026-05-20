@@ -1,5 +1,5 @@
 import { Section, SectionLabel, SectionTitle } from "../components/Section";
-import Annual from "../assets/reports/Al-Siraj Welfare Foundation FY2025 annual report (1).pdf"
+import Annual from "../assets/reports/Annual.pdf"
 
 const stats = [
   { value: "Rs. 60.53M", label: "Total Income", desc: "Total funds received in FY2025" },
